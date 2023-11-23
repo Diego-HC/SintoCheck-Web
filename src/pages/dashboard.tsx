@@ -109,7 +109,7 @@ const Dashboard: React.FC = () => {
         )}
 
         <button
-          className="rounded bg-blue-500 px-4 py-2 my-10 font-bold text-white hover:bg-blue-700"
+          className="rounded bg-blue-500 px-4 py-2 my-7 font-bold text-white hover:bg-blue-700"
           onClick={() => setShowRawData(!showRawData)}
         >
           {showRawData ? "Hide" : "Show"} raw data
